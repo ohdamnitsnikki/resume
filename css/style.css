@@ -12,6 +12,7 @@ body {
     height:46vh;
     display: grid;
     grid-template-columns: 1fr 2fr; /* Divide into two columns */
+    padding-bottom: 5px;
     border-bottom: 4px solid #6e677536;
     
 }
@@ -94,9 +95,10 @@ body {
 }
 
 .slide-container {
-    width: 80%; /* Set width of the slide container */
-    margin: 0 auto; /* Center the slide container horizontally */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add smooth box shadow */
-    border: 1px solid #ccc; /* Add light grey border */
-    padding: 20px; /* Add padding for content */
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 30vh;
 }
