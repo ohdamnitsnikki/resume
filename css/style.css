@@ -9,14 +9,17 @@ body {
 
 
 .top-part {
+    height:46vh;
     display: grid;
     grid-template-columns: 1fr 2fr; /* Divide into two columns */
+    border-bottom: 4px solid #6e677536;
+    
 }
 
 .profile-picture {
     background-color: black;
     width: 100%; /* Profile picture takes up full width */
-    height: 100px; /* Set a height for the profile picture */
+    height: 100%; /* Set a height for the profile picture */
 }
 
 .links-menu {
@@ -41,18 +44,17 @@ body {
     padding: 0; /* Remove default padding */
     display: flex; /* Use Flexbox for layout */
     justify-content: space-around; /* Distribute items with equal space around */
+    margin-top: 15%;
 }
 
 .media-links li {
-    margin: 10px 0; /* Add margin between list items */
+    margin: 10px 0;
+    font-size: 36px;
 }
 
 
 .menu {
-    grid-column: 2 / 3; /* Menu occupies second column */
-    display: flex; /* Use Flexbox for layout */
-    justify-content: space-between; /* Distribute space between items */
-    align-items: center; /* Center items vertically */
+    color:black;
 }
 
 .menu ul {
