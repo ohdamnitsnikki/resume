@@ -42,11 +42,14 @@ body {
 .media-links ul {
     list-style: none; /* Remove default list styles */
     padding: 0; /* Remove default padding */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around; /* Distribute items with equal space around */
 }
 
 .media-links li {
-    margin: 10px 0; /* Equal space from top and bottom */
+    margin: 10px 0; /* Add margin between list items */
 }
+
 
 .menu {
     grid-column: 2 / 3; /* Menu occupies second column */
