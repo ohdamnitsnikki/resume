@@ -38,6 +38,9 @@ body {
 .media-links {
     background-color: green;
     height: 100%; /* Ensure the container takes up full height */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZve4xDnpK47OQ8kqAiAvYJmwk7Z8hQHG3Mw&s'); /* Replace 'https://example.com/path/to/your/image.jpg' with the actual URL to your image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
 }
 
 .media-links ul {
