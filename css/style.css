@@ -11,10 +11,14 @@ body {
     grid-template-columns: 1fr 2fr; /* Create two columns, first one-third width, second two-thirds width */
 }
 
+.top-part {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Divide into two columns */
+}
+
 .profile-picture {
-    background-color: blue;
-    grid-column: 1 / 2; /* Profile picture occupies first column */
-    
+    background-color: black;
+    width: calc(100% / 3); /* Calculate one-third of the parent container's width */
 }
 
 .links-menu {
