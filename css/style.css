@@ -3,4 +3,31 @@
     border-left: 5px solid #fff; /* White border on left */
     border-right: 5px solid #fff; /* White border on right */
     border-top: 5px solid #fff; /* White border on top */
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: 1fr 2fr; /* Create two columns, first one-third width, second two-thirds width */
 }
+
+.profile-picture {
+    background-color: blue;
+    grid-column: 1 / 2; /* Profile picture occupies first column */
+    
+}
+
+.links-menu {
+    grid-column: 2 / 4; /* Links menu occupies columns 2 and 3 */
+    display: grid; /* Use CSS Grid for nested layout */
+    grid-template-columns: 2fr 1fr; /* Create two columns, first two-thirds width, second one-third width */
+    gap: 20px; /* Optional: Add gap between the two columns */
+}
+
+
+.media-links {
+    background-color: green;
+    grid-column: 1 / 2; /* Media links occupies first column */
+}
+
+.menu {
+    background-color: yellow;
+    grid-column: 2 / 3; /* Menu occupies second column */
+}
+
