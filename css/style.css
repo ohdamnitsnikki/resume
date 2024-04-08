@@ -92,3 +92,15 @@ body {
 }
 
 
+.last-part {
+    width: calc(100% - 10px); /* Adjust width to account for body's margin */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+.slide-container {
+    width: 80%; /* Set width of the slide container */
+    margin: 0 auto; /* Center the slide container horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add smooth box shadow */
+    border: 1px solid #ccc; /* Add light grey border */
+    padding: 20px; /* Add padding for content */
+}
