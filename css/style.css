@@ -18,14 +18,20 @@ body {
 
 .profile-picture {
     background-color: black;
-    width: calc(100% / 3); /* Calculate one-third of the parent container's width */
+    width: 100%; /* Profile picture takes up full width */
+    max-width: calc(100% / 3); /* Max width set to one-third of parent container */
+    height: 100px; /* Set a height for the profile picture */
 }
 
 .links-menu {
     grid-column: 2 / 4; /* Links menu occupies columns 2 and 3 */
-    display: grid; /* Use CSS Grid for nested layout */
-    grid-template-columns: 2fr 1fr; /* Create two columns, first two-thirds width, second one-third width */
-    gap: 20px; /* Optional: Add gap between the two columns */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.media-links,
+.menu {
+    margin-bottom: 20px; /* Add margin between the two sections */
 }
 
 
@@ -78,6 +84,11 @@ body {
 
 .menu li:hover {
     filter: brightness(0.8); /* Darken the background color on hover */
+}
+
+
+.middle-part {
+    text-align: center; /* Center-align the content */
 }
 
 
