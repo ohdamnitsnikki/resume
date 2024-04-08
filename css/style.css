@@ -14,7 +14,6 @@ body {
 .profile-picture {
     background-color: black;
     width: 100%; /* Profile picture takes up full width */
-    max-width: calc(100% / 3); /* Max width set to one-third of parent container */
     height: 100px; /* Set a height for the profile picture */
 }
 
