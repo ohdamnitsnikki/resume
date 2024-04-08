@@ -24,10 +24,52 @@
 .media-links {
     background-color: green;
     grid-column: 1 / 2; /* Media links occupies first column */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items horizontally */
+    height: 100%; /* Ensure the container takes up full height */
+}
+
+.media-links ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.media-links li {
+    margin: 10px 0; /* Equal space from top and bottom */
 }
 
 .menu {
-    background-color: yellow;
     grid-column: 2 / 3; /* Menu occupies second column */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
 }
+
+.menu ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use Flexbox for layout */
+}
+
+.menu li {
+    flex: 1; /* Each list item takes up equal space */
+    text-align: center; /* Center text horizontally */
+}
+
+.menu li a {
+    display: block; /* Make the anchor tags fill the list item */
+    padding: 10px; /* Add padding for better clickability */
+    text-decoration: none; /* Remove underline */
+}
+
+.menu li.1 { background-color: #FF5733; } /* Set different background color for each list item */
+.menu li.2 { background-color: #33FF57; }
+.menu li.3 { background-color: #5733FF; }
+
+.menu li:hover {
+    filter: brightness(0.8); /* Darken the background color on hover */
+}
+
 
