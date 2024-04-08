@@ -5,11 +5,6 @@ body {
     border-top: 5px solid #fff; /* White border on top */
 }
 
-.main {
-    
-    display: grid; /* Use CSS Grid */
-    grid-template-columns: 1fr 2fr; /* Create two columns, first one-third width, second two-thirds width */
-}
 
 .top-part {
     display: grid;
